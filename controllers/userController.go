@@ -1,0 +1,42 @@
+package controllers
+
+import (
+
+
+)
+
+func GetUsers() gin.HandlerFunc{
+
+	return func (c *gin.Context){
+
+	}
+
+
+}
+
+func GetUser() gin.HandlerFunc{
+
+	return func (c *gin.Context){
+
+	}
+}
+
+func SignUp() gin.HandlerFunc{
+	return func (c *gin.Context){
+
+	}
+}
+
+func Login() gin.HandlerFunc{
+	rurn func (c *gin.Context){
+
+	}
+}
+
+func HashPassword(password string) string  {
+
+}
+
+func VerifyPassword(userPassword string, providedPassword string)(bool, string){
+	
+}
